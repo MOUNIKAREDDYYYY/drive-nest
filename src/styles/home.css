@@ -1,0 +1,146 @@
+.navbar-nav .nav-link {
+    position: relative; 
+    text-decoration: none;
+    padding-bottom: 5px; 
+  
+   
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    border-bottom: 4px solid #0dcaf0; 
+  }
+  
+  .h11{
+    margin-top: 140px;
+  }
+  
+    .h12{
+      margin-top: 100px;
+    }
+    .h13{
+      margin-top: 100px;
+    }
+  
+    @media screen and (min-width:220px) {
+      .h12{
+      margin-top: 90px;
+    }  
+    .h11{
+      margin-top: 90px;
+    }
+    }
+    
+    @media screen and (min-width:720px) {
+      .h12{
+      margin-top: 0px;
+    }  
+    }
+  
+    
+    @media screen and (min-width:920px) {
+      .h11{
+      margin-top:100px;
+    }  
+    }
+  
+  
+  
+    .container1 {
+      /* background-image: url(http://res.cloudinary.com/ybmedia/image/upload/c_crop,h_1123,w_2000,x_0,y_126/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/4/2/422c917a5d3d306a7b992a5dd256dbe25916d183/20-essential-tips-successful-road-trip.jpg);
+      background-image: url(https://img.pikbest.com/backgrounds/20190327/cute-cartoon-bus-banner-in-golden-autumn-travel-season_1845841.jpg!sw800)  ;
+    */
+  
+    background-image: url(https://www.shutterstock.com/image-photo/road-landscape-red-car-beautiful-260nw-2377086843.jpg);
+      background-size: cover;
+      
+    
+      background-position: center;
+      text-align: center; 
+      padding: 20px; 
+      background-color: rgba(255, 255, 255, 0.8); 
+      border-radius: 10px; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .btn-adventure {
+      font-size: 1.5em;
+      padding: 15px 30px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+  }
+  .btn-adventure:hover {
+      background-color: #fcfcab; 
+  }
+  
+  
+  
+  
+   /* Contact Information Section */
+  .contact-info-section {
+  background-color: #d5eef8;
+  }
+  
+  .contact-info-section .fas {
+  color: #1fa3db;
+  }
+  
+  .contact-info-section p {
+  font-size: 1rem;
+  margin-top: 10px;
+  }
+  
+  
+  
+  /* Footer Section */
+  footer p {
+  margin-bottom: 5px;
+  }
+  
+  footer a {
+  color: #000;
+  }
+  
+  footer a:hover {
+  color: #007bff;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .about-section {
+  background: linear-gradient(120deg, #1b1b1c, #25272b);
+  color: rgb(250, 249, 249);
+  padding: 80px 0;
+  position: relative;
+  border-radius: 20px;
+  font-size: large;
+  }
+  .about-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  }

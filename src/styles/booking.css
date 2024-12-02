@@ -1,0 +1,154 @@
+/* Background styling */
+.bg-image {
+    background-image: url('https://www.hostelworld.com/blog/wp-content/uploads/2014/04/96-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  /* Dark overlay for better text visibility */
+  .overlay {
+    /* background: rgba(0, 0, 0, 0.6); */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Styling for the form and buttons */
+  .form-select {
+    width: 150px;
+  }
+  
+  .btn-group .btn {
+    margin: 0 10px;
+    border-radius: 50px;
+  }
+
+  .vehicle-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .vehicle-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .vehicle-box img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+/* .marquee */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9fcfd; /* Optional background color */
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff; /* Background color for the marquee */
+    padding: 10px 0; /* Padding for spacing */
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: marquee 20s linear infinite; /* Speed of scrolling */
+}
+
+.marquee img {
+    height: 100px; /* Adjust height as needed */
+    margin: 0 20px; /* Space between logos */
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Move left by half of the total content */
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* Contact Information Section */
+ .contact-info-section {
+  background-color: #d5eef8;
+}
+
+.contact-info-section .fas {
+  color: #1fa3db;
+}
+
+.contact-info-section p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+
+
+/* Footer Section */
+footer p {
+margin-bottom: 5px;
+}
+
+footer a {
+color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .page-container {
+    background-color: #faf7f5;
+    
+  
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search-section {
+    background-color: #97ceee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.company-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.company-logos img {
+    margin: 0 10px;
+    width: 80px;
+}

@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+
+
+  
+
+
+
+
+   /* Background styling */
+   .bg-image {
+    background-image: url('https://i.pinimg.com/originals/ae/aa/e2/aeaae2af920ca45733e92911a91ae9c6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+  /* Dark overlay for better text visibility */
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+  /* Styling for the form and buttons */
+  .form-select {
+    width: 150px;
+  }
+  
+  .btn-group .btn {
+    margin: 0 2px;
+    border-radius: 100px;
+  }
+
+
+  .vehicle-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    /* transition: transform 0.3s ease; */
+  }
+  
+  .vehicle-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .vehicle-box img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  body {
+    background: #7b7bff;
+    font-family: Arial, sans-serif;
+}
+.dashboard-header { 
+  /* background-image: url(https://tse4.mm.bing.net/th?id=OIP.72JwTrV6UUK2ivf0SGJkXQHaEK&pid=Api&P=0&h=180); */
+   background-color: #67b1fb; 
+  
+    border-color: black; 
+    /* background-position: cover; */
+    /* background-attachment:fixed ; 
+    background: no-repeat; */
+  
+  
+    padding: 30px;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius:  30px 30px 30px 30px;
+    
+}
+.dashboard-header h1 {
+    font-size: 2rem;
+    margin: 10px ;
+    /* margin-bottom: ; */
+}
+.filter-section {
+    margin-top: 20px;
+}
+.filter-section .form-control, 
+.filter-section .btn {
+    background-color: rgb(190, 221, 253);
+    border-radius: 20px;
+}
+.car-catalogue {
+    margin-top: 40px;
+}
+.car-card {
+    transition: all 0.3s ease;
+    border-radius: 20px 20px 20px 20px;
+  
+    /* border-radius: 80px; */
+}
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.car-card img {
+    border-radius: 0px 0px 0px 0px;
+}
+.car-card .car-price {
+    font-size: 1.0rem;
+    font-weight: small;
+}
+.car-card .btn-rent {
+    background-color: #e2ca50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.car-card .btn-rent:hover {
+    background-color: #67a5e7;
+}
+
+
+
+ /* Contact Information Section */
+ .contact-info-section {
+  background-color: #d5eef8;
+}
+
+.contact-info-section .fas {
+  color: #1fa3db;
+}
+
+.contact-info-section p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+
+
+/* Footer Section */
+footer p {
+margin-bottom: 5px;
+}
+
+footer a {
+color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-color: #eef2f3;
+  font-family: Arial, sans-serif;
+}
+.about-section {
+  background: linear-gradient(120deg, #3a88dc, #eefe77);
+  color: white;
+  padding: 80px 0;
+  position: relative;
+  border-radius: 20px;
+}
+.about-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.service-card {
+  background: linear-gradient(120deg, #dde5ed, #77cafe);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.icon {
+  font-size: 40px;
+  color: #20201f;
+  margin-bottom: 15px;
+}
+.services-section {
+  padding: 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .page-container {
+            background-color: #efabab;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .search-section {
+            background-color: #da6868;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .company-logos {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .company-logos img {
+            margin: 0 10px;
+            width: 80px;
+        }
+
+
+
+        .navbar-nav .nav-link {
+            position: relative; 
+            text-decoration: none;
+            padding-bottom: 5px; 
+        
+           
+        }
+        
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            border-bottom: 4px solid #0dcaf0; 
+        }
